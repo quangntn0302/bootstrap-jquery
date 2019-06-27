@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.giadinh{
+    width: 450px;
+    height: 351px;
+}
+
+.tieude{
+    border-top: 1px solid brown;
+    text-align: center;
+}
+
+.tieude a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: 18px;
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+}
+
+.vien {
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    height: 3px;
+}
+
+.tin{
+    margin-top: 20px;
+}
+
+.tin a img{
+    float: left;
+    border: 1px solid gray;
+    padding: 2px;
+    box-shadow: 7px 6px 0px #80808029;
+    margin-right: 17px;
+}
+
+.tin .tdtin{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    width: 195px;
+    display: inline-block;
+    line-height: 22px;
+}
+.tin p {
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+}
+
+.dstin{
+    margin-top: 15px;
+}
+
+.dstin ul{
+    margin-left: 20px;
+}
+
+.dstin ul li{
+    border-bottom: 1px dotted gray;
+    padding: 5px 0;
+    list-style-type: none;
+    color: red;
+    display: flex;
+}
+
+.dstin ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 0;
+}
+
+.dstin ul li i{
+    font-size: 4px;
+    color: brown;
+    padding-right: 5px;
+    position: relative;
+    top: 7px;
+}

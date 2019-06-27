@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tinhanh{
+    width: 328px;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+}
+.tieude{
+    width: 308px;
+    padding: 10px 9px;
+    color: white;
+    background-color: #00000021;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+img{
+    width: 328px;
+}
+.tieude:hover{
+    text-decoration: underline;
+}

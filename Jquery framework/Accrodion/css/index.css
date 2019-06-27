@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.hieuung {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.motkhoi h3 {
+    background-color: #12CBC4;
+    padding: 10px;
+    color: white;
+}
+
+.motkhoi h3:hover {
+    background-image: url("../image/2.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+.ndmotkhoi {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #273c75;
+    color: white;
+}
+
+h3.xanh {
+    background-color: green;
+}
+
+h3.xanh:hover {
+    background-image: url("../image/1.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+

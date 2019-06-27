@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bo{
+    width: 902px;
+    margin: auto;
+    height: 600px;
+}
+
+.khoianh{
+    width: 216px;
+    height: 291px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.khoianh:nth-child(4n){
+    margin-right: 0px;
+}
+
+.khoianh img{
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+.tieude{
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+.tacgia{
+    font-size: 11px;
+    color: gray;
+    padding: 10px;
+    display: block;
+}
+
+.layer2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

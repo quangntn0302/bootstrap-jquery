@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bo{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.bo .layer1{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.bo .layer2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(14, 14, 87);
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.bo:hover .layer2{
+    opacity: 1;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+.tieude{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.tacgia{
+    color: pink;
+}
+
+.nut{
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    opacity: 0;
+}
+
+.bo:hover .nut{
+    opacity: 1;
+    transition: 2s;
+}

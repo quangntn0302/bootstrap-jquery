@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tren{
+    border-left: 5px blue solid;
+    width: 100%;
+    padding-left: 5px;
+    color: blue;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bold;
+}
+.tren .tdto{
+    text-decoration: none;
+    display: block;
+}
+.trai{
+    width: 340px;
+    height: 400px;
+    background-color: #f6f6f6;
+    float: left;
+}
+.trai img{
+    width: 340px;
+}
+.phai{
+    float: left;
+    width: 364px;
+    margin-left: 10px;
+}
+.duoi .trai h3{
+    color: blue;
+    font-size: 21px;
+    padding-left: 15px;
+}
+.duoi .trai p{
+    font-size: 14px;
+    color: #414141;
+    padding-left: 15px;
+}
+.duoi .phai .mottin{
+    width: 167px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.duoi .phai .mottin img{
+    width: 167px;
+}

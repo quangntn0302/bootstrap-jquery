@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tren{
+    position: relative;
+    width: 270px;
+    height: 325px;
+}
+
+.layer1{
+    position: absolute;
+    width: 270px;
+    height: 325px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nen{
+    position: absolute;
+    width: 270px;
+    height: 325px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: gray;
+    opacity: 0;
+}
+
+.tren:hover .nen{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.cacicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    width: 100px;
+    margin-left: -50px;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.tren:hover .cacicon{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.nho{
+    background-color: #eee;
+    color: gray;
+    padding: 7px;
+    transition: 0.5s;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.nho:nth-child(3){
+    background-color: orangered;
+    color: white;
+}
+
+.nho:hover{
+    color: white;
+    background-color: orangered;
+}
